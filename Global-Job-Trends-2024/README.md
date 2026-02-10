@@ -56,6 +56,6 @@ Based on the analysis, here are the top findings:
 
 
 ### 1. Job Search Tool (Interactive Page)
-![Search Tool](Screenshot%202026-02-10%20185249)
+![Search Tool](Screenshot%202026-02-10%20185249.png)
 ---
 *Project maintained by Uttam Tiwari.*
