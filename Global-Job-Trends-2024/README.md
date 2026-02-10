@@ -1,37 +1,61 @@
-# 📊 Data Analyst Job Market Dashboard (2024)
+# 📊 Global Job Trends Dashboard (2024)
 
 ## 📝 Project Overview
-This project is a comprehensive analysis of the data job market, focusing on roles like Data Scientists, Data Engineers, and Data Analysts. Built using **Microsoft Power BI**, this dashboard provides actionable insights into salary trends, remote work opportunities, and skill requirements across different geographies.
+This project is a comprehensive analysis of the data job market, focusing on roles like Data Scientists, Data Engineers, and Data Analysts. 
 
-The goal of this analysis is to help job seekers understand:
+**Latest Update:** The dashboard now features a **"Job Search Tool"**, allowing users to interactively filter jobs based on salary expectations, specific roles, and date ranges.
+
+The goal is to help job seekers understand:
 - Which roles pay the highest salaries?
 - Is a degree strictly required for data roles?
 - What are the trends for remote vs. on-site work?
-- How does compensation vary by location (USA, UK, India, France)?
+- **(New)** detailed job filtering based on user preferences.
 
-## 🔍 Key Insights & Findings
+---
 
-Based on the visual analysis of the dataset, here are the key takeaways:
+## ✨ Key Features & Pages
 
-### 1. 💰 Salary Analysis
+### 1. 🌍 Executive Summary (Main Dashboard)
+- Provides a high-level view of the global market.
+- **Key Metrics:** Median Salary by Country, Top Roles by Salary, and Remote Work Ratios.
+- **Visuals:** Map visuals for location analysis and Bar charts for role comparison.
+
+### 2. 🔍 Job Search Tool (Detailed Analysis)
+- A dedicated interactive page for deep-diving into the data.
+- **Dynamic Filtering:** Users can filter by **Job Title** (e.g., Data Scientist) and use a **Salary Slider** to find jobs within a specific pay range.
+- **Education Insights:** Instantly updates to show the ratio of degree vs. no-degree requirements for the selected filters.
+
+---
+
+## 🔍 Key Insights Derived
+
+Based on the analysis, here are the top findings:
+
+### 💰 Salary Trends
 - **Top Earners:** Senior Data Scientists and Senior Data Engineers command the highest median yearly salaries globally.
-- **Hourly vs. Yearly:** There is a strong positive correlation between hourly rates and yearly salaries across job titles.
-- **Location Impact:** The United States offers the highest median salaries compared to the UK, France, and India.
+- **Location Impact:** The **United States** offers the highest median salaries compared to the UK, France, and India.
 
-### 2. 🎓 Education & Requirements
-- **Degree Not Always Mandatory:** Approximately **32.5%** of job postings did not explicitly mention a degree requirement, indicating opportunities for skill-based hiring.
-- **Top "No-Degree" Roles:** Data Engineers and Data Analysts have the highest number of openings where a degree is not a strict barrier.
+### 🎓 Education Requirements
+- **Degree Not Always Mandatory:** Approximately **32.5%** of job postings did not explicitly mention a degree requirement.
+- **Skill-Based Hiring:** Data Analysts and Data Engineers show a higher tendency for skill-based hiring compared to research-heavy roles.
 
-### 3. 📅 Work Schedule & Trends
-- **Remote Work Reality:** Only **13.15%** of the analyzed jobs offer a fully "Work From Home" option, while the vast majority are on-site or hybrid.
-- **Market Trend (2024):** The trend line indicates a fluctuation in job postings throughout 2024, with a noticeable dip towards the end of the year.
-- **Full-Time Dominance:** The majority of listings are for Full-Time positions, with Contractor roles making up a smaller segment (~6.5%).
+### 📅 Work Schedule
+- **Remote Reality:** Only **~13%** of jobs offer fully remote options, with the majority being On-Site or Hybrid.
 
-## 🛠️ Technical Skills & Tools Used
-- **Power BI:** For creating interactive dashboards and data visualization.
-- **Power Query:** For data cleaning, transformation, and ETL processes.
-- **DAX (Data Analysis Expressions):** Used to calculate key metrics like Median Salary and Job Counts.
-- **Data Modeling:** Established relationships between job titles, locations, and salary tables.
+---
+
+## 🛠️ Technical Skills Used
+- **Power BI:** Advanced dashboarding, Bookmarks, and Page Navigation.
+- **DAX Measures:** Used for calculating Median Salary, Job Counts, and Dynamic Titles.
+- **Data Modelling:** Star Schema implementation connecting Job Facts with Dimension tables.
+- **UI/UX Design:** Custom sidebars, Slicers, and clear navigation layout.
+
+---
+
+## 📷 Dashboard Visuals
 
 
-*This project was built as part of a guided case study to master Power BI visualization techniques.*
+### 1. Job Search Tool (Interactive Page)
+![Search Tool](Screenshot%202026-02-10%20185249)
+---
+*Project maintained by Uttam Tiwari.*
