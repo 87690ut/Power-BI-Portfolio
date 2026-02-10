@@ -1,4 +1,4 @@
-<img width="1417" height="794" alt="Screenshot 2026-02-10 102521" src="https://github.com/user-attachments/assets/41afea01-6d47-4727-a29d-4d7bff13687e" /># 📊 Data Analyst Job Market Dashboard (2024)
+# 📊 Data Analyst Job Market Dashboard (2024)
 
 ## 📝 Project Overview
 This project is a comprehensive analysis of the data job market, focusing on roles like Data Scientists, Data Engineers, and Data Analysts. Built using **Microsoft Power BI**, this dashboard provides actionable insights into salary trends, remote work opportunities, and skill requirements across different geographies.
