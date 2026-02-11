@@ -52,10 +52,30 @@ Based on the analysis, here are the top findings:
 
 ---
 
+## 🚀 Latest Update: Interactive App Design (v2.0)
+
+I have recently upgraded this dashboard from a static report to a fully interactive **Analytics Application**.
+
+**New Features Added:**
+* **📱 App-Like Navigation:** Replaced standard pages with a clean **Card-based UI** and navigation buttons (Bookmarks) for a seamless user experience.
+* **🔍 Drill-Through Analysis:** Implemented deep-dive capabilities. Users can now right-click on a job role (e.g., Data Analyst) to see a dedicated detailed report with Gauge charts and specific metrics.
+* **📈 Sparklines:** Added trend lines directly within data tables to visualize salary fluctuations over time without cluttering the view.
+* **Job Search Tool:** A dedicated custom filter page for personalized job searching.
+
+**Updated Dashboard Preview:**
+![New Dashboard UI](Screenshot%202026-02-11%20203410)
+
+---
+
+
 ## 📷 Dashboard Visuals
 
 
 ### 1. Job Search Tool (Interactive Page)
 ![Search Tool](Screenshot%202026-02-10%20185249.png)
+
+### 2. Updated Dashboard With New UI
+![New Dashboard](Screenshot%202026-02-11%20203410)
+
 ---
 *Project maintained by Uttam Tiwari.*
