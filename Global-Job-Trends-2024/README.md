@@ -75,6 +75,6 @@ I have recently upgraded this dashboard from a static report to a fully interact
 ![Search Tool](Screenshot%202026-02-10%20185249.png)
 
 ### 2. Updated Dashboard With New UI
-![New Dashboard](Screenshot%202026-02-11%20203410)
+![New Dashboard](Screenshot%202026-02-11%20203410.png)
 ---
 *Project maintained by Uttam Tiwari.*
