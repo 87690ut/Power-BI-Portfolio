@@ -63,7 +63,7 @@ I have recently upgraded this dashboard from a static report to a fully interact
 * **Job Search Tool:** A dedicated custom filter page for personalized job searching.
 
 **Updated Dashboard Preview:**
-![New Dashboard UI](Screenshot%202026-02-11%20203410)
+![New Dashboard UI](Screenshot%202026-02-11%20203410.png)
 
 ---
 
