@@ -52,6 +52,19 @@ Based on the analysis, here are the top findings:
 
 ---
 
+## ⚙️ Backend Architecture & Data Modeling (ETL)
+
+A robust dashboard requires a strong data foundation. In this project, significant work was done in the backend using **Power Query** and **Data Modeling** to ensure optimal performance and accuracy.
+
+**Key Data Engineering Steps Taken:**
+* **ETL Operations (Power Query):** Cleaned raw data, handled null values, and used advanced operations like **Merge** and **Append** to consolidate multiple data sources into unified tables.
+* **Data Modeling:** Designed a highly efficient **Star/Snowflake Schema** connecting the main Fact table (`Job_posting_fact`) with multiple Dimension tables (`Company_dim`, `Skills_dim`, etc.).
+* **Relationship Management:** Established proper 1-to-many (*:1) relationships and cross-filter directions to ensure accurate filtering across the entire dashboard.
+
+**Data Model Snapshot:**
+![Data Model Schema](./screenshots/data_mode.png)
+
+---
 ## 🚀 Latest Update: Interactive App Design (v2.0)
 
 I have recently upgraded this dashboard from a static report to a fully interactive **Analytics Application**.
