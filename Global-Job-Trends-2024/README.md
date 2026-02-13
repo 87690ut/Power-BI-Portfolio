@@ -62,7 +62,7 @@ A robust dashboard requires a strong data foundation. In this project, significa
 * **Relationship Management:** Established proper 1-to-many (*:1) relationships and cross-filter directions to ensure accurate filtering across the entire dashboard.
 
 **Data Model Snapshot:**
-![Data Model Schema](./screenshots/data_model.png)
+![Data Model Schema](data_model.png)
 
 ---
 ## 🚀 Latest Update: Interactive App Design (v2.0)
