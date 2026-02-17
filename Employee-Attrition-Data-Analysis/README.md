@@ -22,7 +22,7 @@ Based on the dashboard analysis of 1,470 employees (Overall Attrition Rate: 16.1
 5. **Educational Background:** 37% of the employees who left belong to the **Life Sciences** background.
 
 ## Dashboard Previev-
-![Dashboard Image](Dashboard_image)
+![Dashboard Image](Dashboard_image.png)
 
 ## ⚙️ Steps Taken in this Project
 1. **Data Cleaning:** Removed anomalies and handled blank categories in Power Query.
