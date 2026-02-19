@@ -7,7 +7,7 @@
 This project demonstrates a professional Data Analytics workflow where data is managed in a SQL Database and visualized in Power BI. Instead of using flat files, I used a structured database to build an interactive dashboard that tracks revenue, sales quantity, and market performance.
 
 ## DASHBOARD PREVIEW
-![Sales performance dashboard]()
+![Sales performance dashboard](sales-revenue-dashboard)
 
 ## 🛠️ Technical Workflow
 1. **Data Sourcing:** Downloaded a professional **SQL Database Dump** file from a data repository.
