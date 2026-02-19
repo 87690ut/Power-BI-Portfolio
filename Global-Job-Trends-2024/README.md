@@ -90,4 +90,4 @@ I have recently upgraded this dashboard from a static report to a fully interact
 ### 2. Updated Dashboard With New UI
 ![New Dashboard](Screenshot%202026-02-11%20203410.png)
 ---
-*Project maintained by Uttam Tiwari.*
+*Project maintained by Uttam Tiwari/BCA STUDENT.*
