@@ -3,8 +3,6 @@
 ## 📝 Project Overview
 This project is a comprehensive analysis of the data job market, focusing on roles like Data Scientists, Data Engineers, and Data Analysts. 
 
-**Latest Update:** The dashboard now features a **"Job Search Tool"**, allowing users to interactively filter jobs based on salary expectations, specific roles, and date ranges.
-
 The goal is to help job seekers understand:
 - Which roles pay the highest salaries?
 - Is a degree strictly required for data roles?
