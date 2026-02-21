@@ -74,9 +74,6 @@ I have recently upgraded this dashboard from a static report to a fully interact
 * **📈 Sparklines:** Added trend lines directly within data tables to visualize salary fluctuations over time without cluttering the view.
 * **Job Search Tool:** A dedicated custom filter page for personalized job searching.
 
-**Updated Dashboard Preview:**
-![New Dashboard UI](Screenshot%202026-02-11%20203410.png)
-
 ---
 
 
