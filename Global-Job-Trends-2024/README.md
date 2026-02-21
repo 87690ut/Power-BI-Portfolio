@@ -64,6 +64,7 @@ A robust dashboard requires a strong data foundation. In this project, significa
 
 ---
 ## 🚀 Latest Update: Interactive App Design (v2.0)
+**Latest Update:** The dashboard now features a **"Job Search Tool"**, allowing users to interactively filter jobs based on salary expectations, specific roles, and date ranges
 
 I have recently upgraded this dashboard from a static report to a fully interactive **Analytics Application**.
 
