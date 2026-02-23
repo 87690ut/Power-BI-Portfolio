@@ -47,7 +47,8 @@ As a Data Analyst, I believe in problem-solving. Here are the real-world challen
 
 ## 📸 Dashboard Screenshots
 *(Add your 5 dashboard screenshots here by dragging and dropping the images into GitHub)*
-1. Overall View: `[Image Placeholder]`
-2. Revenue Analysis: `[Image Placeholder]`
-3. Cancellation Insights: `[Image Placeholder]`
-4.
+1. Overall View: [Overall_Dashboard](Overall_Dashboard)
+2. Revenue Analysis: 
+3. Cancellation Insights: 
+4. Vehicle Type: 
+5. Ratings: 
