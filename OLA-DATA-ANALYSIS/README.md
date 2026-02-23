@@ -47,7 +47,8 @@ As a Data Analyst, I believe in problem-solving. Here are the real-world challen
 
 ## 📸 Dashboard Screenshots
 *(Add your 5 dashboard screenshots here by dragging and dropping the images into GitHub)*
-1. Overall View: ![Overall_Dashboard](OLA-DATA-ANALYSIS/Power_BI_DASHBOARD/Overall_Dashboard.png)
+1. Overall View:
+![Overall Dashboard](OLA-DATA-ANALYSIS/Power_BI_DASHBOARD/Overall_Dashboard.png)
 2. Revenue Analysis: 
 3. Cancellation Insights: 
 4. Vehicle Type: 
