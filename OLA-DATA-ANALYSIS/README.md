@@ -46,10 +46,13 @@ As a Data Analyst, I believe in problem-solving. Here are the real-world challen
    * *Action:* Removed data labels from high-density line charts (Revenue by Month) to reduce visual clutter. Maintained a consistent Dark Theme with OLA's brand colors and placed Slicers (Date/Day) logically on the top-right corner for better user interactivity.
 
 ## 📸 Dashboard Screenshots
-*(Add your 5 dashboard screenshots here by dragging and dropping the images into GitHub)*
 1. Overall View:
-![Overall Dashboard](OLA-DATA-ANALYSIS/Power_BI_DASHBOARD/Overall_Dashboard.png)
+![Overall Dashboard](Power_BI_DASHBOARD/Overall_Dashboard.png)
 2. Revenue Analysis: 
+   ![Revenue Dashboard](Power_BI_DASHBOARD/Revenue_Dashboard.png)
 3. Cancellation Insights: 
+   ![Cancellation Dashboard](Power_BI_DASHBOARD/Cancellation_Dashboard.png)
 4. Vehicle Type: 
+   ![Vehicle Dashboard](Power_BI_DASHBOARD/Vehicle_Type_Dashboard.png)
 5. Ratings: 
+   ![Rating Dashboard](Power_BI_DASHBOARD/Rating_Dashboard.png)
