@@ -1,6 +1,7 @@
 # 🚖 OLA Ride Data Analytics: End-to-End Project (SQL + Power BI)
 
 * Project Managed by: Uttam Tiwari, BCA Student
+* [Email](mailto:uttamtiwari.analyst@gmail.com)
 
 ## 📌 Project Overview
 This project is an end-to-end data analytics solution for tracking and analyzing OLA ride data. The goal of this dashboard is to provide actionable business insights regarding ride volume, revenue generation, cancellation rates, and customer/driver ratings. 
