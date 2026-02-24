@@ -1,6 +1,6 @@
 # 🚖 OLA Ride Data Analytics: End-to-End Project (SQL + Power BI)
 
-* Project Managed by: Uttam Tiwari, BCA Student
+* Project Managed by: Uttam Tiwari / BCA Student
 * [Email](mailto:uttamtiwari.analyst@gmail.com)
 
 ## 📌 Project Overview
