@@ -11,7 +11,8 @@ This project is a full-cycle data analysis of a Brazilian E-Commerce giant (Olis
 The goal was to solve critical business problems like **Customer Churn (97%)** and **Delivery Delays**, handling a dataset of **100k+ orders**.
 
 ---
-
+## Note: Due to large file size of the raw dataset, it is hosted on Google Drive for esy ccess.
+* **Download Raw data:* [👉 Click Here to Access Dataset](https://drive.google.com/drive/folders/1X943cFDVz9M7Xooxkl6BQ2bJRWBOA6Q1?usp=sharing)
 ## 🛠️ The Tech Stack & Workflow
 
 My approach wasn't linear. I used the best tool for each specific problem:
