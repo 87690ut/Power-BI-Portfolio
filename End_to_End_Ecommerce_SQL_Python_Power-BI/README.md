@@ -88,7 +88,7 @@ After solving the data issues, I built a 3-page interactive report mimicking a m
 ### Page 1: Executive Overview
 Focused on high-level KPIs (Revenue, Orders, Trends) for the CEO.
 
-![Executive Overview Screenshot](INSERT_YOUR_PAGE_1_IMAGE_LINK_HERE)
+![Executive Overview Screenshot](Customer.png)
 
 ### Page 2: Customer Insights
 Focused on behavior. Includes the **Heatmap Analysis** (Day vs. Hour) and **Retention Gauge**.
