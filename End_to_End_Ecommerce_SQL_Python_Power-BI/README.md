@@ -89,12 +89,12 @@ After solving the data issues, I built a 3-page interactive report mimicking a m
 ### Page 1: Executive Overview
 Focused on high-level KPIs (Revenue, Orders, Trends) for the CEO.
 
-![Executive Overview Screenshot](Power_BI_Dashboard/Customer.png)
+![Executive Overview Screenshot](Power_BI_Dashboard/Overview.png)
 
 ### Page 2: Customer Insights
 Focused on behavior. Includes the **Heatmap Analysis** (Day vs. Hour) and **Retention Gauge**.
 
-![Customer Insights Screenshot](Power_BI_Dashboard/Overview.png)
+![Customer Insights Screenshot](Power_BI_Dashboard/Customer.png)
 
 ### Page 3: Delivery Operations
 Focused on logistics. Features **Slicers (Date, State)** to filter "Late Deliveries" and identify bottleneck states like Rio de Janeiro (RJ).
