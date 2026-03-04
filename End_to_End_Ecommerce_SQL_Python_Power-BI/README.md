@@ -1,9 +1,6 @@
 # 🛒 End-to-End E-Commerce Data Analysis Project
 ### *From Raw Data to Strategic Insights using Python, SQL & Power BI*
 
-![Power BI](https://img.shields.io/badge/Power_BI-Desktop-yellow?style=for-the-badge&logo=powerbi)
-![Python](https://img.shields.io/badge/Python-Pandas-blue?style=for-the-badge&logo=python)
-![SQL](https://img.shields.io/badge/SQL-MySQL-orange?style=for-the-badge&logo=mysql)
 
 ## 👨‍💻 Project Overview
 This project is a full-cycle data analysis of a Brazilian E-Commerce giant (Olist Store). Instead of just visualizing data, I handled the entire pipeline: **Data Cleaning in Python**, **Complex Logic in SQL**, and **Final Presentation in Power BI**.
