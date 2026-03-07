@@ -64,6 +64,35 @@ df['Cost'] = df['Sales'] * cost_ratios
 # Simulating 10% artificial loss cases for "Profitless Growth" analysis
 loss_mask = np.random.choice([True, False], size=df.shape[0], p=[0.1, 0.9])
 df.loc[loss_mask, 'Cost'] = df['Sales'] * 1.25  # Cost > Sales = Loss
+
+
+## 🛠️ Technical Deep Dive: Solving Filter Context & Data Granularity
+
+During the development of this dashboard, a critical technical challenge was identified regarding how Power BI handles **Filter Context** between aggregated regional data and individual customer insights.
+
+### 1. The Challenge: "The Aggregate Trap"
+* **Initial Observation**: The "Top Regional Customer" table was displaying regional grand totals instead of individual customer sales and profit.
+* **Tooltip Discrepancy**: The Report Page Tooltip was fetching top products for the entire South Region rather than the specific customer selected. For example, a single product (Cisco) was showing $23K in sales, which matched the regional total but far exceeded the individual customer's total purchase.
+
+### 2. The Solution: Implementation of Row Context & Regional Ranking
+To ensure 100% data integrity, the following structural and DAX changes were implemented:
+* **Context Transition**: Moved `customer_name` from the `Values` section (Measure-based) to the `Rows` section (Dimension-based). This forced Power BI to recognize the specific "Row Context" for each individual customer.
+* **DAX Ranking Logic**: Replaced the global "Top N" filter with a localized `RANKX` measure to isolate the #1 customer within each specific region:
+    ```dax
+    Customer Rank = 
+    RANKX(
+        ALLSELECTED('superstore_cleaned'[customer_name]), 
+        [Actual Top Customer Sales], 
+        , 
+        DESC
+    )
+    ```
+* **Precision Filtering**: Applied a visual-level filter where `Customer Rank is 1`, effectively isolating the "Regional Champions".
+
+### 3. The Result: Verified Data Integrity
+* **South Region Accuracy**: Sean Miller’s individual sales were accurately corrected to **$23,669.21**.
+* **Dynamic Hover Effects**: Hovering over Tamara Chand ($18,437.14) now correctly displays her specific product breakdown (e.g., Canon $17.5K, Ibico $0.74K), with the tooltip sum perfectly matching the table value.
+
 ```
 
 ### 🚀 Automation: Direct SQL Loading
