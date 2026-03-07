@@ -141,4 +141,4 @@ This is where technical accuracy meets user experience.
 ### 👨‍💻 Author
 **Uttam Tiwari**
 *Full-Stack Data Analyst*
-* [LinkedIn Profile] | [GitHub Profile]
+* [LinkedIn Profile](https://www.linkedin.com/in/uttam-tiwari-46079a310/)
