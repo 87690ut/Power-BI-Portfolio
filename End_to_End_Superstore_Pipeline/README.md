@@ -63,6 +63,18 @@ Due to space constraints, I implemented a **Hover-over KPI Strategy** for Logist
 
 ### 2. Intelligent Tooltips
 * Hovering over a specific customer (e.g., Tamara Chand) dynamically filters the view to show **only** the products bought by her, ensuring the total matches her individual sales figures perfectly.
+* ## 🎨 Advanced UX & UI Engineering
+*Goal: Maximize insights within limited screen real estate using Bookmarks.*
+
+### 1. The "Hover-to-Explore" Tooltip (Logistics)
+* **Feature:** Hovering over the small "Avg Ship Time" KPI card triggers a hidden report page.
+* **Result:** Instantly reveals the detailed "Delivery Days by Mode" chart (verified via SQL Q8) without leaving the main view.
+
+### 2. Collapsible Slicer Panel (Space Optimization)
+* **Problem:** Slicers (Date, Region, Category) were taking up 20% of the canvas.
+* **Solution:** Implemented a **Hidden Slicer Panel** using **Bookmarks & Selection Pane**.
+* **Interaction:** Clicking the "Filter" button slides the panel out; clicking "Close" hides it back. This keeps the dashboard clean and focused on data.
+*
 
 ---
 
