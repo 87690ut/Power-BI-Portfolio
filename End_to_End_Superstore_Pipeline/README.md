@@ -3,7 +3,7 @@
 ![Project Status](https://img.shields.io/badge/Status-Completed-success) ![Tools](https://img.shields.io/badge/Tools-PowerBI%20|%20MySQL%20|%20DAX-blue)
 
 ## 📖 Project Overview
-Unlike standard sales dashboards that focus solely on high-level aggregates, this project was built with a primary focus on **Data Granularity and Row-Level Integrity**. 
+Unlike standard sales dashboards that focus solely on high-level aggregates, this project was built with a primary focus on **Data Granularity and Row-Level Integrity**.
 
 The goal was to audit the Superstore dataset using **SQL** for backend verification and visualize the findings in **Power BI** with advanced context filtering. A critical part of this project involved debugging a complex "Filter Context" error where regional totals were masking individual customer performance.
 
