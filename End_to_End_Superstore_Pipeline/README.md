@@ -1,6 +1,6 @@
 # 🛒 Superstore Analytics: The "Accuracy-First" Approach
 
-![Project Status](https://img.shields.io/badge/Status-Completed-success) ![Tools](https://img.shields.io/badge/Tools-PowerBI%20|%20MySQL%20|%20DAX-blue)
+![Project Status](https://img.shields.io/badge/Status-Completed-success) ![Tools](https://img.shields.io/badge/Tools-PowerBI%20|%20Python%20|%20MySQL%20|%20DAX-blue)
 
 ## 📖 Project Overview
 Unlike standard sales dashboards that focus solely on high-level aggregates, this project was built with a primary focus on **Data Granularity and Row-Level Integrity**.
