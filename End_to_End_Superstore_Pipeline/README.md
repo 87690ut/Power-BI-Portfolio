@@ -89,7 +89,7 @@ Due to space constraints, I implemented a **Hover-over KPI Strategy** for Logist
 ---
 
 ## 🖥️Dashboard -- 
-[Dashboard_Image](Power_BI_Dashboard/dashboard)
+![Dashboard_Image](Power_BI_Dashboard/dashboard.png)
 ## 🚀 How to Run This Project
 1.  **SQL Setup:** Import the `superstore_cleaned.csv` into MySQL and run the provided `analysis_queries.sql` file.
 2.  **Power BI:** Open `Superstore_Executive_Dashboard.pbix`.
