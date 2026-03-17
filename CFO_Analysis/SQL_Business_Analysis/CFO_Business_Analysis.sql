@@ -70,28 +70,86 @@ GROUP BY Discount_Band
 ORDER BY Units_Sold DESC;
  
 -- 8.
- select count(*) 
- from ms_financial_d
- where Sale_Price > (select avg(Sale_Price) Avg_SALES_PRICE
- from ms_financial_d);
+SELECT 
+    COUNT(*)
+FROM
+    ms_financial_d
+WHERE
+    Sale_Price > (SELECT 
+            AVG(Sale_Price) Avg_SALES_PRICE
+        FROM
+            ms_financial_d);
 
  
  -- 9.
- select Country, Product, sum(Profit) as Profit
- from ms_financial_d
- group by Country, Product
- order by Profit
- limit 3;
+SELECT 
+    Country, Product, SUM(Profit) AS Profit
+FROM
+    ms_financial_d
+GROUP BY Country , Product
+ORDER BY Profit
+LIMIT 3;
  
  -- 10.
-select Product, round((sum(Gross_Sales) - sum(Sales)),2) as Total_Discount
-from ms_financial_d
-group by Product
-order by Total_Discount desc; 
+SELECT 
+    Product,
+    ROUND((SUM(Gross_Sales) - SUM(Sales)), 2) AS Total_Discount
+FROM
+    ms_financial_d
+GROUP BY Product
+ORDER BY Total_Discount DESC;
  
  -- 11.
+SELECT 
+    ROUND((SELECT 
+                    SUM(Sales)
+                FROM
+                    ms_financial_d
+                WHERE
+                    Country = 'United States Of America') / (SELECT 
+                    SUM(Sales)
+                FROM
+                    ms_financial_d) * 100,
+            2) AS USA_Contribution_per;
 
+
+-- 12.
+SELECT 
+    Country,
+    ROUND(SUM(CASE
+                WHEN YEAR(Date) = 2013 THEN Profit
+                ELSE 0
+            END),
+            2) AS Profit_2013,
+    ROUND(SUM(CASE
+                WHEN YEAR(Date) = 2014 THEN Profit
+                ELSE 0
+            END),
+            2) AS Profit_2014
+FROM
+    ms_financial_d
+GROUP BY Country;
+
+-- 13.
+SELECT 
+    Product,
+    ROUND(SUM(Manufacturing_Price), 2) AS Manufacturing_Price,
+    ROUND(SUM(COGS), 2) AS COGS,
+    ROUND(SUM(Profit), 2) AS Total_Profit
+FROM
+    ms_financial_d
+GROUP BY Product;
  
+ -- 14
+SELECT 
+    Product,
+    ROUND(SUM(Sales), 2) AS Total_sales,
+    ROUND(SUM(Profit), 2) AS Total_profit
+FROM
+    ms_financial_d
+WHERE
+    Product LIKE 'V%'
+GROUP BY Product;
  
  
  
