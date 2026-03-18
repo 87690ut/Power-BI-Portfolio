@@ -39,4 +39,4 @@ Connected Power BI directly to the MySQL database and built a scalable, dark-the
 3. Segmented market performance, providing the CFO with clear visibility into 'Government' vs. 'Midmarket' revenue streams.
 
 ## 📸 Dashboard Snapshot
-> *(Replace this text with an image of your final Power BI dashboard by dragging and dropping your screenshot here)*
+![Dashboard_img](Power_BI_Dashboard/CFO_DASHBOARD.png)
